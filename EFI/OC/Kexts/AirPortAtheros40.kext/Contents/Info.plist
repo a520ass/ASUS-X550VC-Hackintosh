@@ -31,17 +31,17 @@
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>9M189u</string>
+	<string>9P107g</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>17A356</string>
+	<string>17G7018</string>
 	<key>DTSDKName</key>
 	<string>macosx10.13internal</string>
 	<key>DTXcode</key>
-	<string>0900</string>
+	<string>0930</string>
 	<key>DTXcodeBuild</key>
-	<string>9M189u</string>
+	<string>9P107g</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>Atheros Wireless LAN PCI</key>
@@ -54,7 +54,7 @@
 			<string>IODefaultMatchCategory</string>
 			<key>IONameMatch</key>
 			<array>
-				<string>pci168c,32</string>
+				<string>pci168c,30</string>
 				<string>pci168c,2a</string>
 				<string>pci106b,0086</string>
 				<string>pci168c,1c</string>

@@ -10,7 +10,7 @@ X550VC OpenCore EFI文件
 |     CPU      |      Intel(R) Core(TM) i5-3230M CPU @ 2.60GHz      |
 |     IGPU     |      Intel HD Graphics 4000      |
 |     GPU      |      NVIDIA 720M      |
-|     RAM      |      4GB onboard + 4GB DDDR3      |
+|     RAM      |      4GB onboard + 4GB DDR3      |
 |     Storage  |      SSD 850PRO 128GB      |
 |     Network  |      AR9485|
 |     Display  |      15.6" HD 60Hz, 1366 x 768      |
