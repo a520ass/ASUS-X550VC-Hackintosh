@@ -11,11 +11,11 @@ X550VC OpenCore EFI文件
 |     IGPU     |      Intel HD Graphics 4000      |
 |     GPU      |      NVIDIA 720M      |
 |     RAM      |      4GB onboard + 4GB DDR3      |
-|     Storage  |      SSD 850PRO 128GB      |
-|     Network  |      AR9485|
+|     Storage  |      Samsung SSD 850 PRO 128GB      |
+|     Network  |      Atheros AR9485 802.11b/g/n Wireless Network|
 |     Display  |      15.6" HD 60Hz, 1366 x 768      |
 |     Sound    |      Realtek ALC270      |
-|     Ethernet |      Qualcomm Atheros, AR8161 Gigabit Ethernet      |
+|     Ethernet |      Realtek RTL8168/8111 PCI-E Gigabit Ethernet      |
 
 ## **BIOS设置**
 * `Advanced - USB Configuration - XHCI Pre-Boot Mode` **Enabled**
