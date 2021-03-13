@@ -22,14 +22,14 @@
 	<string>1.0</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>MacBookPro9,2-EHC1</key>
+		<key>MacBookPro9,2-EH01</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBMergeNub</string>
 			<key>IOClass</key>
 			<string>AppleUSBMergeNub</string>
 			<key>IONameMatch</key>
-			<string>EHC1</string>
+			<string>EH01</string>
 			<key>IOPCIPrimaryMatch</key>
 			<string>0x1e268086</string>
 			<key>IOProbeScore</key>
@@ -68,7 +68,7 @@
 			<key>model</key>
 			<string>MacBookPro9,2</string>
 		</dict>
-		<key>MacBookPro9,2-EHC1-internal-hub</key>
+		<key>MacBookPro9,2-EH01-internal-hub</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
@@ -82,7 +82,7 @@
 			<dict>
 				<key>port-count</key>
 				<data>
-				AQAAAA==
+				AwAAAA==
 				</data>
 				<key>ports</key>
 				<dict>
@@ -97,6 +97,17 @@
 						<key>portType</key>
 						<integer>0</integer>
 					</dict>
+					<key>HP13</key>
+					<dict>
+						<key>name</key>
+						<string>HP13</string>
+						<key>port</key>
+						<data>
+						AwAAAA==
+						</data>
+						<key>portType</key>
+						<integer>0</integer>
+					</dict>
 				</dict>
 			</dict>
 			<key>locationID</key>
@@ -104,14 +115,14 @@
 			<key>model</key>
 			<string>MacBookPro9,2</string>
 		</dict>
-		<key>MacBookPro9,2-EHC2</key>
+		<key>MacBookPro9,2-EH02</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBMergeNub</string>
 			<key>IOClass</key>
 			<string>AppleUSBMergeNub</string>
 			<key>IONameMatch</key>
-			<string>EHC2</string>
+			<string>EH02</string>
 			<key>IOPCIPrimaryMatch</key>
 			<string>0x1e2d8086</string>
 			<key>IOProbeScore</key>
@@ -150,7 +161,7 @@
 			<key>model</key>
 			<string>MacBookPro9,2</string>
 		</dict>
-		<key>MacBookPro9,2-EHC2-internal-hub</key>
+		<key>MacBookPro9,2-EH02-internal-hub</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
@@ -164,21 +175,10 @@
 			<dict>
 				<key>port-count</key>
 				<data>
-				AgAAAA==
+				AwAAAA==
 				</data>
 				<key>ports</key>
 				<dict>
-					<key>HP21</key>
-					<dict>
-						<key>name</key>
-						<string>HP21</string>
-						<key>port</key>
-						<data>
-						AQAAAA==
-						</data>
-						<key>portType</key>
-						<integer>255</integer>
-					</dict>
 					<key>HP23</key>
 					<dict>
 						<key>name</key>
@@ -258,17 +258,6 @@
 						<key>port</key>
 						<data>
 						AwAAAA==
-						</data>
-					</dict>
-					<key>HS04</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>0</integer>
-						<key>name</key>
-						<string>HS04</string>
-						<key>port</key>
-						<data>
-						BAAAAA==
 						</data>
 					</dict>
 					<key>SS01</key>
