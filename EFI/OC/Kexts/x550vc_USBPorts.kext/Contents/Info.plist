@@ -179,6 +179,17 @@
 				</data>
 				<key>ports</key>
 				<dict>
+					<key>HP21</key>
+					<dict>
+						<key>name</key>
+						<string>HP21</string>
+						<key>port</key>
+						<data>
+						AQAAAA==
+						</data>
+						<key>portType</key>
+						<integer>0</integer>
+					</dict>
 					<key>HP23</key>
 					<dict>
 						<key>name</key>
@@ -188,7 +199,7 @@
 						AwAAAA==
 						</data>
 						<key>portType</key>
-						<integer>255</integer>
+						<integer>0</integer>
 					</dict>
 				</dict>
 			</dict>
