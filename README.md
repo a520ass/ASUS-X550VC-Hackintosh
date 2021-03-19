@@ -1,7 +1,9 @@
 # ASUS-X550VC-Hackintosh
-X550VC OpenCore EFI文件
+华硕 X550VC OpenCore EFI文件 支持Mac Os 10.13以上系统 
 
-![OpenCore](https://img.shields.io/badge/OpenCore-v0.6.4-green)
+注意：BigSur已经不支持3代CPU，需要修改机型为 MacBookPro 11.1才能安装
+
+![OpenCore](https://img.shields.io/badge/OpenCore-v0.6.7-green)
 ![MacOS](https://img.shields.io/badge/Mac%20OS-v10.13.6%20(17G66)-blue)
 
 ## **硬件信息**
@@ -27,3 +29,4 @@ X550VC OpenCore EFI文件
 ## **引用**
 * https://applelife.ru/threads/asus-x550vc-i-asus-x550cc.41752/
 * https://github.com/FawenYo/ASUS-X550VC-Hackintosh
+* https://github.com/athlonreg/Enable-AR956X-AR946X-AR9485-in-your-hacintosh 
