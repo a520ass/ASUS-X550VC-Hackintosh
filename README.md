@@ -1,7 +1,9 @@
 # ASUS-X550VC-Hackintosh
-华硕 X550VC OpenCore EFI文件 支持Mac Os 10.13以上系统 
+华硕 X550VC OpenCore EFI文件 默认机型为MacBookPro9,2 已去除三码
 
-注意：BigSur已经不支持3代CPU，需要修改机型为 MacBookPro 11.1才能安装
+支持Mac Os 10.13以上系统 
+
+注意：BigSur官方不支持MacBookPro9,2 ，需要修改机型为 MacBookPro11,1才能安装
 
 ![OpenCore](https://img.shields.io/badge/OpenCore-v0.6.7-green)
 ![MacOS](https://img.shields.io/badge/Mac%20OS-v10.13.6%20(17G66)-blue)
@@ -21,9 +23,17 @@
 
 ## **BIOS设置**
 * `Advanced - USB Configuration - XHCI Pre-Boot Mode` **Enabled**
+
 * `Advanced - USB Configuration - Legacy USB Support` **Enabled**
+
 * `Boot - Launch CSM` **Disabled**
+
 * `Security - Secure Boot Control` **Disabled**
+
+  关闭Launch CSM 才能开机不会扁苹果，如果没有该选项，可以使用modGRUBShell.efi 进行修改，不同bios版本变量不同，不能直接使用
+
+  华硕x550vc  bios版本 x550vc.222
+  关csm    setup_var 0x275 0x00
 
 
 ## **引用**
