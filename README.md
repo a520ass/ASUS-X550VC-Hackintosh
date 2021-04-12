@@ -1,12 +1,14 @@
 # ASUS-X550VC-Hackintosh
-华硕 X550VC OpenCore EFI文件 默认机型为MacBookPro9,2 已去除三码
+华硕 X550VC OpenCore EFI文件 默认机型为MacBookPro11,1 已去除三码
 
 支持Mac Os 10.13以上系统 
 
-注意：BigSur官方不支持MacBookPro9,2 ，需要修改机型为 MacBookPro11,1才能安装
-
 ![OpenCore](https://img.shields.io/badge/OpenCore-v0.6.7-green)
 ![MacOS](https://img.shields.io/badge/Mac%20OS-v10.13.6%20(17G66)-blue)
+
+![Screenshot](https://github.com/a520ass/ASUS-X550VC-Hackintosh/pic/macOS11.png)
+
+![Screenshot](https://github.com/a520ass/ASUS-X550VC-Hackintosh/pic/macOS1014.png)
 
 ## **硬件信息**
 |     Name     |        Model        |
