@@ -34,11 +34,15 @@
 
   关闭Launch CSM 才能开机不会扁苹果，如果没有该选项，可以使用modGRUBShell.efi 进行修改，不同bios版本变量不同，不能直接使用
 
-  华硕x550vc  bios版本 x550vc.222
-  关csm    setup_var 0x275 0x00
+  华硕x550vc  bios版本 x550vc.222 的csm参数如下
+  
+  查询csm setup_var_3 0x275
+  
+  关闭csm    setup_var 0x275 0x00
 
 
 ## **引用**
 * https://applelife.ru/threads/asus-x550vc-i-asus-x550cc.41752/
 * https://github.com/FawenYo/ASUS-X550VC-Hackintosh
-* https://github.com/athlonreg/Enable-AR956X-AR946X-AR9485-in-your-hacintosh 
+* https://github.com/FIRSTPLATO/opencore-atheros-kext  10.14以上的AR9485驱动
+* https://github.com/athlonreg/Enable-AR956X-AR946X-AR9485-in-your-hacintosh 10.13的AR9485驱动
