@@ -6,9 +6,9 @@
 ![OpenCore](https://img.shields.io/badge/OpenCore-v0.6.7-green)
 ![MacOS](https://img.shields.io/badge/Mac%20OS-v10.13.6%20(17G66)-blue)
 
-![Screenshot](https://github.com/a520ass/ASUS-X550VC-Hackintosh/pic/macOS11.png)
+![Screenshot](https://raw.githubusercontent.com/a520ass/ASUS-X550VC-Hackintosh/master/pic/macOS11.png)
 
-![Screenshot](https://github.com/a520ass/ASUS-X550VC-Hackintosh/pic/macOS1014.png)
+![Screenshot](https://raw.githubusercontent.com/a520ass/ASUS-X550VC-Hackintosh/master/pic/macOS1014.png)
 
 ## **硬件信息**
 |     Name     |        Model        |
