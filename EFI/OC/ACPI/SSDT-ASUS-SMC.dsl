@@ -1,4 +1,4 @@
-// asus x550vc hot keys
+// asus x550vc hot keys by a520ass
 DefinitionBlock ("", "SSDT", 2, "hack", "asmc", 0x00000000)
 {
     External (_SB_.ATKD, DeviceObj)    // (from opcode)
@@ -19,6 +19,22 @@ DefinitionBlock ("", "SSDT", 2, "hack", "asmc", 0x00000000)
 
     Scope (_SB.PCI0.LPCB.EC0)
     {
+        Method (_Q0A, 0, NotSerialized)  // _Qxx: EC Query fn+f1
+        {
+            If (ATKP)
+            {
+                \_SB.ATKD.IANE (0x5E)
+            }
+        }
+
+        Method (_Q0B, 0, NotSerialized)  // _Qxx: EC Query fn+f2
+        {
+            If (ATKP)
+            {
+                \_SB.ATKD.IANE (0x7D)
+            }
+        }
+        
         Method (_Q0C, 0, NotSerialized)  // _Qxx: EC Query fn+f3
         {
             If (ATKP)
