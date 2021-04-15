@@ -94,6 +94,14 @@
 				<key>Path</key>
 				<string>SSDT-EH02.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-XHC.aml</string>
+			</dict>
 		</array>
 		<key>Delete</key>
 		<array>
@@ -572,13 +580,13 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Rename XHC1 to XHCX (X550VC_USB)</string>
+				<string>Rename XHC1 to XHC_ (X550VC_USB)</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
-				<data>WEhDMQ==</data>
+				<data>X1NCX1BDSTBYSEMx</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
@@ -586,7 +594,7 @@
 				<key>OemTableId</key>
 				<data></data>
 				<key>Replace</key>
-				<data>WEhDWA==</data>
+				<data>X1NCX1BDSTBYSENf</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -1109,7 +1117,7 @@
 				<key>BundlePath</key>
 				<string>RealtekRTL8111.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>RTL8168 Ethernet</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1127,7 +1135,7 @@
 				<key>BundlePath</key>
 				<string>HS80211Family.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>AR9485 1</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1145,7 +1153,7 @@
 				<key>BundlePath</key>
 				<string>AirPortAtheros40.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>AR9485 2</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
