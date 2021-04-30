@@ -3,6 +3,12 @@
 
 支持Mac Os 10.13以上系统 
 
+经过验证以下机型都能正常运行（三代i5CPU的）
+
+A450V、K450V、X450V
+
+A550V、X550V
+
 ![OpenCore](https://img.shields.io/badge/OpenCore-v0.6.7-green)
 ![MacOS](https://img.shields.io/badge/Mac%20OS-v10.13.6%20(17G66)-blue)
 
