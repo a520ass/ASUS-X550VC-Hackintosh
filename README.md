@@ -38,13 +38,15 @@ A550V、X550V
 
 * `Security - Secure Boot Control` **Disabled**
 
-  关闭Launch CSM 才能开机不会扁苹果，如果没有该选项，可以使用modGRUBShell.efi 进行修改，不同bios版本变量不同，不能直接使用
+  ~~关闭Launch CSM 才能开机不会扁苹果，如果没有该选项，可以使用modGRUBShell.efi 进行修改，不同bios版本变量不同，不能直接使用~~
 
-  华硕x550vc  bios版本 x550vc.222 的csm参数如下
+  ~~华硕x550vc  bios版本 x550vc.222 的csm参数如下~~
   
-  查询csm setup_var_3 0x275
+  ~~查询csm setup_var_3 0x275~~
   
-  关闭csm    setup_var 0x275 0x00
+  ~~关闭csm    setup_var 0x275 0x00~~
+  
+  没有Launch CSM 选项的机器，可以编程器刷入BIOS文件夹下的bios文件，x550vc的主板通用
 
 
 ## **引用**
